@@ -15,6 +15,10 @@
 		CFF9DDF31E8CCF9C00D9AB73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DDF11E8CCF9C00D9AB73 /* LaunchScreen.storyboard */; };
 		CFF9DDFE1E8CCF9C00D9AB73 /* TDImageViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF9DDFD1E8CCF9C00D9AB73 /* TDImageViewerTests.m */; };
 		CFF9DE091E8CCF9C00D9AB73 /* TDImageViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF9DE081E8CCF9C00D9AB73 /* TDImageViewerUITests.m */; };
+		CFF9DE181E8CD04E00D9AB73 /* TDZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF9DE171E8CD04E00D9AB73 /* TDZoomingScrollView.m */; };
+		CFF9DE1B1E8CD0B000D9AB73 /* MWTapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF9DE1A1E8CD0B000D9AB73 /* MWTapDetectingView.m */; };
+		CFF9DE1E1E8CD19C00D9AB73 /* MWTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF9DE1D1E8CD19C00D9AB73 /* MWTapDetectingImageView.m */; };
+		CFF9DE211E8CD9C700D9AB73 /* TDPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF9DE201E8CD9C700D9AB73 /* TDPageController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		CFF9DE041E8CCF9C00D9AB73 /* TDImageViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDImageViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF9DE081E8CCF9C00D9AB73 /* TDImageViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDImageViewerUITests.m; sourceTree = "<group>"; };
 		CFF9DE0A1E8CCF9C00D9AB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF9DE161E8CD04E00D9AB73 /* TDZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDZoomingScrollView.h; sourceTree = "<group>"; };
+		CFF9DE171E8CD04E00D9AB73 /* TDZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDZoomingScrollView.m; sourceTree = "<group>"; };
+		CFF9DE191E8CD0B000D9AB73 /* MWTapDetectingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTapDetectingView.h; sourceTree = "<group>"; };
+		CFF9DE1A1E8CD0B000D9AB73 /* MWTapDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTapDetectingView.m; sourceTree = "<group>"; };
+		CFF9DE1C1E8CD19C00D9AB73 /* MWTapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTapDetectingImageView.h; sourceTree = "<group>"; };
+		CFF9DE1D1E8CD19C00D9AB73 /* MWTapDetectingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTapDetectingImageView.m; sourceTree = "<group>"; };
+		CFF9DE1F1E8CD9C700D9AB73 /* TDPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDPageController.h; sourceTree = "<group>"; };
+		CFF9DE201E8CD9C700D9AB73 /* TDPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDPageController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,14 @@
 		CFF9DDE21E8CCF9C00D9AB73 /* TDImageViewer */ = {
 			isa = PBXGroup;
 			children = (
+				CFF9DE1F1E8CD9C700D9AB73 /* TDPageController.h */,
+				CFF9DE201E8CD9C700D9AB73 /* TDPageController.m */,
+				CFF9DE161E8CD04E00D9AB73 /* TDZoomingScrollView.h */,
+				CFF9DE171E8CD04E00D9AB73 /* TDZoomingScrollView.m */,
+				CFF9DE191E8CD0B000D9AB73 /* MWTapDetectingView.h */,
+				CFF9DE1A1E8CD0B000D9AB73 /* MWTapDetectingView.m */,
+				CFF9DE1C1E8CD19C00D9AB73 /* MWTapDetectingImageView.h */,
+				CFF9DE1D1E8CD19C00D9AB73 /* MWTapDetectingImageView.m */,
 				CFF9DDE61E8CCF9C00D9AB73 /* AppDelegate.h */,
 				CFF9DDE71E8CCF9C00D9AB73 /* AppDelegate.m */,
 				CFF9DDE91E8CCF9C00D9AB73 /* ViewController.h */,
@@ -276,7 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFF9DE1E1E8CD19C00D9AB73 /* MWTapDetectingImageView.m in Sources */,
 				CFF9DDEB1E8CCF9C00D9AB73 /* ViewController.m in Sources */,
+				CFF9DE211E8CD9C700D9AB73 /* TDPageController.m in Sources */,
+				CFF9DE1B1E8CD0B000D9AB73 /* MWTapDetectingView.m in Sources */,
+				CFF9DE181E8CD04E00D9AB73 /* TDZoomingScrollView.m in Sources */,
 				CFF9DDE81E8CCF9C00D9AB73 /* AppDelegate.m in Sources */,
 				CFF9DDE51E8CCF9C00D9AB73 /* main.m in Sources */,
 			);
@@ -429,6 +453,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T5EW9858SB;
 				INFOPLIST_FILE = TDImageViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tomfriwel.com.TDImageViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +466,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T5EW9858SB;
 				INFOPLIST_FILE = TDImageViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tomfriwel.com.TDImageViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
