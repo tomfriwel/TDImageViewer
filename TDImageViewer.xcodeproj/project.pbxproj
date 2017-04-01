@@ -18,7 +18,6 @@
 		CFF9DE181E8CD04E00D9AB73 /* TDZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF9DE171E8CD04E00D9AB73 /* TDZoomingScrollView.m */; };
 		CFF9DE1B1E8CD0B000D9AB73 /* MWTapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF9DE1A1E8CD0B000D9AB73 /* MWTapDetectingView.m */; };
 		CFF9DE1E1E8CD19C00D9AB73 /* MWTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF9DE1D1E8CD19C00D9AB73 /* MWTapDetectingImageView.m */; };
-		CFF9DE211E8CD9C700D9AB73 /* TDPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF9DE201E8CD9C700D9AB73 /* TDPageController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,8 +60,6 @@
 		CFF9DE1A1E8CD0B000D9AB73 /* MWTapDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTapDetectingView.m; sourceTree = "<group>"; };
 		CFF9DE1C1E8CD19C00D9AB73 /* MWTapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTapDetectingImageView.h; sourceTree = "<group>"; };
 		CFF9DE1D1E8CD19C00D9AB73 /* MWTapDetectingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTapDetectingImageView.m; sourceTree = "<group>"; };
-		CFF9DE1F1E8CD9C700D9AB73 /* TDPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDPageController.h; sourceTree = "<group>"; };
-		CFF9DE201E8CD9C700D9AB73 /* TDPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDPageController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +110,6 @@
 		CFF9DDE21E8CCF9C00D9AB73 /* TDImageViewer */ = {
 			isa = PBXGroup;
 			children = (
-				CFF9DE1F1E8CD9C700D9AB73 /* TDPageController.h */,
-				CFF9DE201E8CD9C700D9AB73 /* TDPageController.m */,
 				CFF9DE161E8CD04E00D9AB73 /* TDZoomingScrollView.h */,
 				CFF9DE171E8CD04E00D9AB73 /* TDZoomingScrollView.m */,
 				CFF9DE191E8CD0B000D9AB73 /* MWTapDetectingView.h */,
@@ -298,7 +293,6 @@
 			files = (
 				CFF9DE1E1E8CD19C00D9AB73 /* MWTapDetectingImageView.m in Sources */,
 				CFF9DDEB1E8CCF9C00D9AB73 /* ViewController.m in Sources */,
-				CFF9DE211E8CD9C700D9AB73 /* TDPageController.m in Sources */,
 				CFF9DE1B1E8CD0B000D9AB73 /* MWTapDetectingView.m in Sources */,
 				CFF9DE181E8CD04E00D9AB73 /* TDZoomingScrollView.m in Sources */,
 				CFF9DDE81E8CCF9C00D9AB73 /* AppDelegate.m in Sources */,
@@ -542,6 +536,7 @@
 				CFF9DE0F1E8CCF9C00D9AB73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFF9DE101E8CCF9C00D9AB73 /* Build configuration list for PBXNativeTarget "TDImageViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +545,7 @@
 				CFF9DE121E8CCF9C00D9AB73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFF9DE131E8CCF9C00D9AB73 /* Build configuration list for PBXNativeTarget "TDImageViewerUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +554,7 @@
 				CFF9DE151E8CCF9C00D9AB73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
